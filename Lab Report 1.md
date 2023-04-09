@@ -9,7 +9,7 @@ explanation about what report is about
 explain what you are doing here
 
 **Installation**
-insert photo of installing vscode 
+![Image](VScode_installer.png)
 * put description of what to do and how I skipped this step since you already downloaded it 
 
 **Photo Examples**
