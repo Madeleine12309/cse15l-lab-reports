@@ -60,6 +60,8 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? `
 ![Image](Commands_a.png)
 ![Image](Commands_ls.png)
 
+
+
 In the Images above I used two different commands:
 * ls -lat
 * ls -a
