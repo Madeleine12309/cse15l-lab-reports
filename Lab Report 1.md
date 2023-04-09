@@ -13,7 +13,7 @@ explain what you are doing here
 * put description of what to do and how I skipped this step since you already downloaded it 
 
 **Photo Examples**
-insert photo of your own page of vs code 
+![Image](VScode.png)
 * description
 
 
@@ -25,10 +25,12 @@ include photo
 ## Remotely Connecting
 
 **Password Reset**
+![Image](Remote_Connect_Correct.png)
 explain what remotely connecting is/ begining steps of reseting pasdword 
 include photos of reseting password add link of how to change password
 
 **Connect to Account**
+![Image](Remote_Connect_Incorrect.png)
 Show terminal of entering password and what you struggles with (password zz issue)
 photo from doc 
 
@@ -38,6 +40,8 @@ photo from doc
 
 ## Trying Some Commands
 
+![Image](Commands_a.png)
+![Image](Commands_ls.png)
 explain what you are doing here
 
 **Command Examples**
