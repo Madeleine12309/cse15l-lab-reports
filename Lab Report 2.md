@@ -47,30 +47,43 @@ Included below are pictures of my code for StringServer and the output for both 
 The bug I will be explaining is the **reverseInPlace** bug in ArrayExamples.java.
 
 * A failure-inducing input for the buggy program, as a JUnit test and any associated code 
+
 `int [] input1 = {3, 4, 5};
 ArrayExamples.reverseInPlace(input1);
 assertArrayEquals(new int[]{5, 4, 3}, input1);`
+
 * An input that doesn’t induce a failure, as a JUnit test and any associated code 
+
 `int [] input1 = {3};
 ArrayExamples.reverseInPlace(input1);
+
 assertArrayEquals(new int[]{3}, input1);`
+
 * The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 ![Image](output_screenshot.png)
 **The other test passes regardless if code is bugged or not**
 * The bug, as the before-and-after code change required to fix it 
  
 **Before**
+
 `static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
+      arr[i] = arr[arr.length - i - 1];    
     }`
+    
 **After**
-`static void reverseInPlace(int[] arr) {
+
+`static void reverseInPlace(int[] arr) 
     int temp_arr;
+    
     for(int i = 0; i < arr.length/2; i += 1) {
+    
       temp_arr = arr[i];
+      
       arr[i] = arr[arr.length - i - 1];
+      
       arr[arr.length - i - 1] = temp_arr;
+      
     }`
 
 * Briefly describe why the fix addresses the issue.
