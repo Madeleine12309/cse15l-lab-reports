@@ -18,18 +18,28 @@ Included below are pictures of my code for StringServer and the output for both 
 
 **Description for `/add-message?s=Hello`**
 * Which methods in your code are called?
+
     The method that is called is handleRequest, this is inside of the class Handler which implements URLHandler.
+    
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+
     The relevant argument for handleRequest is URI url and the values of some relevant fields of the class include "/", "/add-message", "Hello", "How are you", "404       not found", "=".
+    
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
     The values change based on what output is needed. SOme values that I changed include "add-message", "Hello", and "How are you", these values were included to           change the output to hello and how are you when add-message was added to the URL. Without these values being chnaged the coutput would not be the same, the values     that did not change include the error message, "=", and "/", these did not change as they are values that apply to most URLs. 
 
 **Description for `/add-message?s=How are you`**
 * Which methods in your code are called?
+
     The method that is called is handleRequest, this is inside of the class Handler which implements URLHandler.
+    
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+
     The relevant argument for handleRequest is URI url and the values of some relevant fields of the class include "/", "/add-message", "Hello", "How are you", "404       not found", "=".
+    
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
     The values change based on what output is needed. SOme values that I changed include "add-message", "Hello", and "How are you", these values were included to           change the output to hello and how are you when add-message was added to the URL. Without these values being chnaged the coutput would not be the same, the values     that did not change include the error message, "=", and "/", these did not change as they are values that apply to most URLs. 
 
 ## Part 2 - One Bug From Lab
@@ -46,16 +56,22 @@ ArrayExamples.reverseInPlace(input1);
 assertArrayEquals(new int[]{3}, input1);`
 * The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 ![Image](output_screenshot.png)
-* The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+**The other test passes regardless if code is bugged or not**
+* The bug, as the before-and-after code change required to fix it 
  
 **Before**
-`int [] input1 = {3};
-ArrayExamples.reverseInPlace(input1);
-assertArrayEquals(new int[]{3}, input1);`
+`static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }`
 **After**
-`int [] input1 = {3};
-ArrayExamples.reverseInPlace(input1);
-assertArrayEquals(new int[]{3}, input1);`
+`static void reverseInPlace(int[] arr) {
+    int temp_arr;
+    for(int i = 0; i < arr.length/2; i += 1) {
+      temp_arr = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp_arr;
+    }`
 
 * Briefly describe why the fix addresses the issue.
 
