@@ -173,7 +173,7 @@ reach all 50 by the end of March. You have to pay the group's dues
 * In this example these were the only lines that did not have a word conatining the letter `i`
 
 ## Citations
-* [Wikibooks]([http://a.com](https://en.wikibooks.org/wiki/Grep))
+* [Wikibooks](https://en.wikibooks.org/wiki/Grep)
 * I also used `man grep` to see all the command-line options and explanations.
 
 ## All Done
