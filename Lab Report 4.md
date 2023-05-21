@@ -61,7 +61,7 @@ https://github.com/Madeleine12309/cse15l-lab-reports/assets/130106488/6a7826f7-c
 ```
 /change <enter> <down> <right> <right> x i <2> <escape> :wq <enter>
 ```
-* /change works like CTRL-f and takes you directly to the word change in the file, pressing enter brings your cursor to the beginning of the word, after go down, right twice and your cursor will be infront of the number you need to change. By pressing x you delete 1 and i chnages the mode to insert where you can change the file, pressing 2 adds 2 to make index2. Once you press escape you go back to normal mode type :wq to save and quit, pressing enter to finish.
+* `/change` works like CTRL-f and takes you directly to the word change in the file, pressing `<enter>` brings your cursor to the beginning of the word, after go `<down>`, `<right>` twice and your cursor will be infront of the number you need to change. By pressing `x` you delete 1 and `i` changes the mode to insert where you can change the file, pressing `<2>` adds `<2>` to make index2. Once you press `<escape>` you go back to normal mode type `:wq` to save and quit, pressing `<enter>` to finish.
 * This is shown in the video above
 
 ## Step 5
@@ -77,7 +77,7 @@ For this step the only key used was `<enter>`, after inputing the command `bash 
 ## Step 6
 
 *For this step to commit the changes made you use the command `git commit ListExamples.java`.
-Once you have entered this command you can add any message before committing, I added small change. 
+Once you have entered this command you can add any message before committing, I added `<small change>`. 
 After this is done use the command `git push` and then you are done! Use the photos below as reference.*
 
 ![Image](output_commit.png)
@@ -89,8 +89,8 @@ After this is done use the command `git push` and then you are done! Use the pho
 ```
 i <small change> <escape> :wq <enter>
 ```
-* i converts the mode to insert mode where you can edit. I edit by adding the words small change, escape then pulls you out of insert mode back to normal mode, :wq then saves and quits after pressing enter.
-* After I used `git push` and used <enter> to execute the command.
+* `i` converts the mode to insert mode where you can edit. I edit by adding the words `<small change>`, `<escape>` then pulls you out of insert mode back to normal mode, `:wq` then saves and quits after pressing `<enter>`.
+* After I used `git push` and used `<enter>` to execute the command.
   
 ## All Done
 
