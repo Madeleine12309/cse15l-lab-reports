@@ -53,8 +53,7 @@ After you can run the tests using the command `bash test.sh` to see the test fai
 *To edit the code file you start by using this command in the terminal `vim ListExamples.java`. After using this command the file should 
 appear on vim, where you can edit the file to change index1 to index2. See the video below.*
 
-
-![Image](vim_recording.mov)
+https://github.com/Madeleine12309/cse15l-lab-reports/assets/130106488/6a7826f7-ca4a-46e0-bb4b-9cb1741e4c2c
 
 **Keys used**
 * For this step the keys used are `<enter>` after inputing the command `vim ListExamples.java`, this allows the command to pass. 
