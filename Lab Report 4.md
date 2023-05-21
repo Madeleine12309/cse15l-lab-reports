@@ -74,7 +74,7 @@ appear on vim, where you can edit the file to change index1 to index2. See the i
 ![Image](test_pass_lab7.png)
 
 **Keys used**
-For this step the only key used was `<enter>`, after inputing the command `bash test.sh`, this allows the command to pass.
+* For this step the only key used was `<enter>`, after inputing the command `bash test.sh`, this allows the command to pass.
 
 ## Step 6
 
