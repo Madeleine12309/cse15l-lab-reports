@@ -51,12 +51,11 @@ After you can run the tests using the command `bash test.sh` to see the test fai
 ## Step 4
 
 *To edit the code file you start by using this command in the terminal `vim ListExamples.java`. After using this command the file should 
-appear on vim, where you can edit the file to change index1 to index2. See the images and video below.*
+appear on vim, where you can edit the file to change index1 to index2. See the images below.*
 
 ![Image](vim.png)
 ![Image](before_change.png)
 ![Image](after_change.png)
-https://github.com/Madeleine12309/cse15l-lab-reports/assets/130106488/6a7826f7-ca4a-46e0-bb4b-9cb1741e4c2c
 
 **Keys used**
 * For this step the keys used are `<enter>` after inputing the command `vim ListExamples.java`, this allows the command to pass. 
@@ -65,7 +64,7 @@ https://github.com/Madeleine12309/cse15l-lab-reports/assets/130106488/6a7826f7-c
 /change <enter> <down> <right> <right> x i <2> <escape> :wq <enter>
 ```
 * `/change` works like CTRL-f and takes you directly to the word change in the file, pressing `<enter>` brings your cursor to the beginning of the word, after go `<down>`, `<right>` twice and your cursor will be infront of the number you need to change. By pressing `x` you delete 1 and `i` changes the mode to insert where you can change the file, pressing `<2>` adds `<2>` to make index2. Once you press `<escape>` you go back to normal mode type `:wq` to save and quit, pressing `<enter>` to finish.
-* This is shown in the images and video above
+* This is shown in the images above
 
 ## Step 5
 
