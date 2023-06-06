@@ -8,7 +8,7 @@ In this lab report I will be demonstrating a debugging scenario where I play the
 ## Original Post
 
 *Below is the post the student on edstem, a screenshot of their code, and their terminal that is producing the failure output. In the report they explain what they see and what command they used.*
-![Image](Student_response.png)
+![Image](Student_response .png)
 ![Image](Whats_wrong.png)
 ![Image](Failure_output.png)
 
@@ -36,13 +36,22 @@ In this lab report I will be demonstrating a debugging scenario where I play the
 - The files used in this assignment were:
 - `grade.sh`
 - `ListExamples.java` 
-- `TestListExamplesv
+- `TestListExamples
 - `student-submission`
 - `junit`
 - The directory I used was:
 - `list-examples-grader-1-main`
 * The contents of each file before fixing the bug
-- 
+![Image](Whats_wrong.png)
+- `grade.sh`
+![Image](ListExamples.png)
+- `ListExamples.java` 
+![Image](TestLIstExamples.png)
+- `TestListExamples`
+![Image](ListExamplesTest.png)
+- `student-submission`
+![Image](test.png)
+- `junit`
 * The full command line (or lines) you ran to trigger the bug
 - The full command line that was used was:
 ```
