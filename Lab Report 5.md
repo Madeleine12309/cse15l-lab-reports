@@ -49,9 +49,9 @@ In this lab report I will be demonstrating a debugging scenario where I play the
 ![Image](TestLIstExamples.png)
 - `TestListExamples`
 ![Image](ListExamplesTest.png)
-- `student-submission`
+- `student-submission` This can be found in student-submission
 ![Image](test.png)
-- `junit`
+- `junit` This is where junit is used, it is found in student-submission
 * The full command line (or lines) you ran to trigger the bug
 - The full command line that was used was:
 ```
