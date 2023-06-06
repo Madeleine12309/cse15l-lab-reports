@@ -8,7 +8,7 @@ In this lab report I will be demonstrating a debugging scenario where I play the
 ## Original Post
 
 *Below is the post the student on edstem, a screenshot of their code, and their terminal that is producing the failure output. In the report they explain what they see and what command they used.*
-![Image](Student_repsonse.png)
+![Image](Student_response.png)
 ![Image](Whats_wrong.png)
 ![Image](Failure_output.png)
 
@@ -24,7 +24,7 @@ In this lab report I will be demonstrating a debugging scenario where I play the
 ## Student Final Response 
 
 *Below is the students final response to the TA where they have foudn the error and provide a screenshot with the terminal printing the correct message.*
-![Image](Student_reponse_back.png)
+![Image](Student_response_back.png)
 ![Image](It_works.png)
 ![Image](Fixed_line.png)
 
@@ -33,7 +33,14 @@ In this lab report I will be demonstrating a debugging scenario where I play the
 ## Setup Information 
 
 * The file & directory structure needed
-- 
+- The files used in this assignment were:
+- `grade.sh`
+- `ListExamples.java` 
+- `TestListExamplesv
+- `student-submission`
+- `junit`
+- The directory I used was:
+- `list-examples-grader-1-main`
 * The contents of each file before fixing the bug
 - 
 * The full command line (or lines) you ran to trigger the bug
@@ -48,3 +55,8 @@ bash grade.sh https://github.com/Madeleine12309/lab7
 
 
 ## Part 2 – Reflection
+
+*For my reflection something that I learned that I did not know previously was all the technical command such as grep and the different ways to use find. I was also able to learn about the properties of vim and how to alter a file then push it to git. I was able to learn many different, new things during the quarter and had fun learning with my lab group. I will miss this class as I had fun and enjoyed lab every week.*
+
+Thank you for taking the time to read each and every one of our reports and thank you for a great quarter! Have a great summer! :)
+
