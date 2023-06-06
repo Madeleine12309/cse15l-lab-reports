@@ -44,8 +44,6 @@ In this lab report I will be demonstrating a debugging scenario where I play the
 ![Image](Whats_wrong.png)
 - `grade.sh`
 ![Image](ListExamples.png)
-- `ListExamples.java` 
-![Image](TestListExamples.png)
 - `student-submission` This can be found in student-submission
 ![Image](test.png)
 - `junit` This is where junit is used, it is found in student-submission
