@@ -46,7 +46,7 @@ In this lab report I will be demonstrating a debugging scenario where I play the
 - `grade.sh`
 ![Image](ListExamples.png)
 - `ListExamples.java` 
-![Image](TestLIstExamples.png)
+![Image](TestListExamples.png)
 - `TestListExamples`
 ![Image](ListExamplesTest.png)
 - `student-submission` This can be found in student-submission
