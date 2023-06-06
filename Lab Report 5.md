@@ -36,7 +36,6 @@ In this lab report I will be demonstrating a debugging scenario where I play the
 - The files used in this assignment were:
 - `grade.sh`
 - `ListExamples.java` 
-- `TestListExamples
 - `student-submission`
 - `junit`
 - The directory I used was:
@@ -47,8 +46,6 @@ In this lab report I will be demonstrating a debugging scenario where I play the
 ![Image](ListExamples.png)
 - `ListExamples.java` 
 ![Image](TestListExamples.png)
-- `TestListExamples`
-![Image](ListExamplesTest.png)
 - `student-submission` This can be found in student-submission
 ![Image](test.png)
 - `junit` This is where junit is used, it is found in student-submission
